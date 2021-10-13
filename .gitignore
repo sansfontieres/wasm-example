@@ -32,3 +32,14 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# ninja files
+.ninja_log
+.ninja_deps
+build.ninja
+
+# generated files
+*.wasm
+zig-out/
+zig-cache/
+
